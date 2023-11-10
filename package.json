@@ -1,0 +1,35 @@
+{
+  "name": "cmd-tools",
+  "version": "1.0.0",
+  "description": "The launcher of console commands",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "tsc": "./node_modules/typescript/bin/tsc",
+    "watch": "~/.console-ninja/.bin/console-ninja tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProMastersss/cmd-tools.git"
+  },
+  "keywords": [
+    "cmd",
+    "tools",
+    "launcher"
+  ],
+  "author": "ProMastersss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProMastersss/cmd-tools/issues"
+  },
+  "homepage": "https://github.com/ProMastersss/cmd-tools#readme",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.6",
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.11"
+  }
+}
