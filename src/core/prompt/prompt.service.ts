@@ -21,7 +21,7 @@ export class PromptService {
       choices: Object.keys(config)
     }]);
 
-    if (!config['12']) {
+    if (!config[response]) {
       throw new Error(`Команда '${response}' не найдена`);
     }
 
